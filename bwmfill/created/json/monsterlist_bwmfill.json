@@ -1,0 +1,66 @@
+[
+    {
+        "id":"bwm_sheep1",
+        "name":"Mountain Sheep",
+        "iconID":"monsters_rltiles2:55",
+        "monsterClass":"animal",
+        "movementAggressionType":"none",
+        "spawnGroup":"bwm_sheep",
+        "phraseID":"bwm_sheep_dialogue"
+    },
+    {
+        "id":"tunlon",
+        "name":"Tunlon",
+        "iconID":"monsters_rltiles1:83",
+        "monsterClass":"humanoid",
+        "spawnGroup":"tunlon",
+        "phraseID":"tunlon_start",
+        "droplistID":"tunlon"
+    },
+    {
+        "id":"mountain_wolf_3",
+        "name":"Strong mountain wolf",
+        "iconID":"monsters_rltiles2:107",
+        "maxHP":73,
+        "maxAP":10,
+        "moveCost":4,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":9,
+            "max":17
+        },
+        "spawnGroup":"primwolf3",
+        "attackCost":4,
+        "attackChance":160,
+        "blockChance":80,
+        "damageResistance":4,
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"haste",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"15"
+                }
+            ]
+        }
+    },
+    {
+        "id":"mountain_wolf_4",
+        "name":"Reckless mountain wolf",
+        "iconID":"monsters_rltiles2:107",
+        "maxHP":68,
+        "maxAP":10,
+        "moveCost":4,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":6,
+            "max":14
+        },
+        "spawnGroup":"primwolf3",
+        "attackCost":3,
+        "attackChance":175,
+        "blockChance":60,
+        "damageResistance":2
+    }
+]

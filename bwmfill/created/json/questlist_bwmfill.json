@@ -1,0 +1,63 @@
+[
+    {
+        "id":"tunlon_fence",
+        "name":"It makes no fence",
+        "stages":[
+            {
+                "progress":1,
+                "logText":"I found Tunlon, Crossglens sheep farmer, on the hill next to Crossglen. He asked me to help him get some wood for new fences. Since Crossglen doesn't have a lumberjack, I should go to Fallhaven and ask there."
+            },
+            {
+                "progress":2,
+                "logText":"I talked to Fallhaven's woodcutter. He told me that he had done a lot of work lately and therefore can't get any more wood for me. However, I should ask the woodcutters near Crossroads Guardhouse if they can help me."
+            },
+            {
+                "progress":3,
+                "logText":"The woodcutters told me that they have a lot of wood after clearing out the field around them, however all they have is firewood. Apparently this is not suitable for making fences."
+            },
+            {
+                "progress":4,
+                "logText":"I talked to Tunlon again and he told me to talk to his brother Tinlyn if he knew any person who could help me out."
+            },
+            {
+                "progress":10,
+                "logText":"Tinlyn was glad to meet me. He said that Loneford had a woodcutter who could mabye help me out."
+            },
+            {
+                "progress":11,
+                "logText":"Tinlyn wasn't really happy to see me. However, he told me to go to Loneford."
+            },
+            {
+                "progress":15,
+                "logText":"In Loneford, I met a villager who told me he had some spare fences made. I should bring them to Tunlon."
+            },
+            {
+                "progress":20,
+                "logText":"Tunlon took a close look at the fences I brought him but didn't like them a lot. The fence posts were too short he said. I should go back and ask for taller ones.",
+                "rewardExperience":2000
+            },
+            {
+                "progress":21,
+                "logText":"The woodcutter in Loneford however said he couldn't make any fences, as he just cuts the wood. He recommended giving Brimhaven's woodcutter a visit, as he thinks that he can do some basic woodwork."
+            },
+            {
+                "progress":22,
+                "logText":"I gave the woodcutter in Brimhaven a visit and he told me to bring some wood, so the craftsman can make fences out of it. Loneford's woodcutter should have plenty, so I should go back and ask him for wood."
+            },
+            {
+                "progress":23,
+                "logText":"I got a pile of wood for the fences."
+            },
+            {
+                "progress":24,
+                "logText":"Brimhaven's wood craftsman made me some nice looking fences. I gave him the gold coins from Tunlon."
+            },
+            {
+                "progress":25,
+                "logText":"Tunlon was happy to see the fences I brought him. These should be just fine, he said.",
+                "rewardExperience":5000,
+                "finishesQuest":1
+            }
+        ]
+    }
+]

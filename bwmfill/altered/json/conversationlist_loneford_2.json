@@ -1,0 +1,76 @@
+[
+    {
+        "id":"loneford_villager2",
+        "message":"Don't disturb me, I need to finish chopping this wood. Go bother someone else.",
+        "replies":[
+            {
+                "text":"Do you by any chance have some fences?",
+                "nextPhraseID":"loneford_villager2_fence",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":15,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Do you by any chance have some fences?",
+                "nextPhraseID":"loneford_villager2_fence",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":11
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":15,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Unfortunately the fences you gave me are not tall enough. Do you have others?",
+                "nextPhraseID":"loneford_villager2_fence2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":21,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"The Craftsman told me that I should get some wood from you.",
+                "nextPhraseID":"loneford_villager2_fence4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":22
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":23,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]

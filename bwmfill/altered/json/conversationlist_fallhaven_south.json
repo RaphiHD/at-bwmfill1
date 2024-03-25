@@ -1,0 +1,71 @@
+[
+    {
+        "id":"fallhaven_lumberjack_15",
+        "message":"Hello again my friend.",
+        "replies":[
+            {
+                "text":"I cannot thank you enough for cutting away those trees! Finally I've got a shortcut!",
+                "nextPhraseID":"fallhaven_lumberjack_13",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"pathway_fallhaven",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"What have you got for sale?",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Never mind. I don't need your services for now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Tunlon has sent me to ask for some wood for fences.",
+                "nextPhraseID":"fallhaven_lumberjack_17",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":2,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_lumberjack_1",
+        "message":"Hi, I'm Jakrar.",
+        "replies":[
+            {
+                "text":"Are you a woodcutter?",
+                "nextPhraseID":"fallhaven_lumberjack_2"
+            },
+            {
+                "text":"Tunlon has sent me to ask for some wood for fences.",
+                "nextPhraseID":"fallhaven_lumberjack_17",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":2,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,121 @@
+[
+    {
+        "id":"hadracor_wantsitems_1",
+        "message":"Hello again. Did you kill those wasps for us?",
+        "replies":[
+            {
+                "text":"Could you tell me your story again?",
+                "nextPhraseID":"hadracor_story_2"
+            },
+            {
+                "text":"What was I supposed to do again?",
+                "nextPhraseID":"hadracor_story_6"
+            },
+            {
+                "text":"Not yet, but I am working on it.",
+                "nextPhraseID":"hadracor_accept_3"
+            },
+            {
+                "text":"Yes, I killed six of them.",
+                "nextPhraseID":"hadracor_wantsitems_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"hadracor_waspwing",
+                        "value":6
+                    }
+                ]
+            },
+            {
+                "text":"Yes, I killed five of them.",
+                "nextPhraseID":"hadracor_wantsitems_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"hadracor_waspwing",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"No, but I wanted to ask if you have some spare wood to make fences out of.",
+                "nextPhraseID":"hadracor_fence_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":2
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":3,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"hadracor_1",
+        "message":"Hello there, I am Hadracor.",
+        "replies":[
+            {
+                "text":"What is this place?",
+                "nextPhraseID":"hadracor_story_1"
+            },
+            {
+                "text":"Have you seen my brother Andor around here? Looks somewhat like me.",
+                "nextPhraseID":"hadracor_andor_1"
+            },
+            {
+                "text":"Do you by any chance have some spare wood to make fences out of?",
+                "nextPhraseID":"hadracor_fence_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":2
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":3,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"hadracor_complete_3",
+        "message":"It's not much, but we do have some really sharp axes that you might be interested in.",
+        "replies":[
+            {
+                "text":"No thanks. Goodbye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"OK, let me see what you have.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Do you by any chance have some spare wood to make fences out of?",
+                "nextPhraseID":"hadracor_fence_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":2
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tunlon_fence",
+                        "value":3,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]
